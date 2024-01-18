@@ -1,0 +1,117 @@
+/*** Testimonial ***/
+.testimonial-carousel .owl-nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+}
+.testimonial-item p{
+    text-align: justify !important;
+}
+
+/* Default Style*/
+.default-style.testimonials-section h5{
+    color : #161411;
+    text-transform: uppercase;
+}
+.default-style.testimonials-section .testimonial-carousel .owl-item img {
+    width: 100px !important;
+    height: 100px;
+    border: 2px solid #161411;
+}
+.default-style.testimonials-section .testimonial-carousel .owl-nav .owl-prev,
+.default-style.testimonials-section .testimonial-carousel .owl-nav .owl-next {
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--dark);
+    border: 2px solid #161411;
+    border-radius: 50px;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.default-style.testimonials-section .testimonial-carousel .owl-nav .owl-prev:hover,
+.default-style.testimonials-section .testimonial-carousel .owl-nav .owl-next:hover {
+    color: #fff;
+    background: #161411;
+}
+.default-style .hr-testimonials{
+    background: #161411;
+    width: 60px;
+    height: 4px;
+}
+
+/* Testimonials style 1*/
+.style-1.testimonials-section h5{
+    color : #fda12b;
+    text-transform: uppercase;
+}
+.style-1.testimonials-section .testimonial-carousel .owl-item img {
+    width: 100px !important;
+    height: 100px;
+    border: 2px solid #fda12b;
+}
+.style-1.testimonials-section .testimonial-carousel .owl-nav .owl-prev,
+.style-1.testimonials-section .testimonial-carousel .owl-nav .owl-next {
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--dark);
+    border: 2px solid #fda12b;
+    border-radius: 50px;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.style-1.testimonials-section .testimonial-carousel .owl-nav .owl-prev:hover,
+.style-1.testimonials-section .testimonial-carousel .owl-nav .owl-next:hover {
+    color: #fff;
+    background: #fda12b;
+}
+.style-1 .hr-testimonials{
+    background: #fda12b;
+    width: 60px;
+    height: 4px;
+}
+
+/* Testimonials Style 2*/
+.style-2.testimonials-section h5{
+    color : #341f66;
+    text-transform: uppercase;
+}
+.style-2.testimonials-section .testimonial-carousel .owl-item img {
+    width: 100px !important;
+    height: 100px;
+    border: 2px solid #341f66;
+}
+.style-2.testimonials-section .testimonial-carousel .owl-nav .owl-prev,
+.style-2.testimonials-section .testimonial-carousel .owl-nav .owl-next {
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--dark);
+    border: 2px solid #341f66;
+    border-radius: 50px;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.style-2.testimonials-section .testimonial-carousel .owl-nav .owl-prev:hover,
+.style-2.testimonials-section .testimonial-carousel .owl-nav .owl-next:hover {
+    color: #fff;
+    background: #341f66;
+}
+.style-2 .hr-testimonials{
+    background: #341f66;
+    width: 60px;
+    height: 4px;
+}
